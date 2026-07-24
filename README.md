@@ -33,9 +33,6 @@ The goal of this public repository is to show:
 
 Sensitive implementation details, proprietary heuristics, and private data sources are intentionally omitted.
 
-## Suggested resume wording
-
-"Built a modular decision-analysis engine that normalizes trading data, validates inputs, and generates evidence-backed reports from CSV/XLSX sources."
 
 ## Status
 
