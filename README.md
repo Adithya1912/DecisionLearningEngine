@@ -7,7 +7,6 @@ decision-quality insights.
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Release](https://img.shields.io/badge/Release-v0.1.0-lightgrey)]()
-[![CI](https://img.shields.io/github/actions/workflow/status/Adithya1912/DecisionLearningEngine/ci.yml?branch=main)](https://github.com/Adithya1912/DecisionLearningEngine/actions/workflows/ci.yml)
 
 Rather than measuring only outcomes such as profit and loss, DLE focuses on how
 decisions are made. It normalizes raw trading data into a canonical model,
@@ -85,7 +84,8 @@ flowchart LR
 
  DLE follows an evidence-first architecture: raw trading data is normalized into canonical records before behavioral evidence is extracted and transformed into explainable insights.
 
-![DLE CLI demo](docs/screenshots/dle-cli-demo.png)
+<img width="1600" height="1040" alt="image" src="https://github.com/user-attachments/assets/c7fbfd72-fcbe-4555-ab6a-f679442448e3" />
+
 
 ### 1. Input layer
 
