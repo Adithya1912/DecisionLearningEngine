@@ -5,9 +5,9 @@ that transforms trading journals and broker exports into structured,
 decision-quality insights.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-Private-lightgrey)](LICENSE)
-[![Last Release](https://img.shields.io/badge/Last%20Release-Latest-success)]()
-[![CI](https://img.shields.io/badge/CI-Research%20Build-informational)]()
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Release](https://img.shields.io/badge/Release-v0.1.0-lightgrey)]()
+[![CI](https://img.shields.io/github/actions/workflow/status/Adithya1912/DecisionLearningEngine/ci.yml?branch=main)](https://github.com/Adithya1912/DecisionLearningEngine/actions/workflows/ci.yml)
 
 Rather than measuring only outcomes such as profit and loss, DLE focuses on how
 decisions are made. It normalizes raw trading data into a canonical model,
