@@ -67,7 +67,8 @@ flowchart LR
     class report,artifacts output;
 ```
 
-![DLE CLI demo](docs/screenshots/dle-cli-demo.png)
+<img width="1600" height="1040" alt="image" src="https://github.com/user-attachments/assets/7f4a7e64-58c2-419e-8879-4bf386a53277" />
+
 
 ### 1. Input layer
 
