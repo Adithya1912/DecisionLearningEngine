@@ -4,6 +4,11 @@ Decision Learning Engine (DLE) is an evidence-driven behavioral analysis system
 that transforms trading journals and broker exports into structured,
 decision-quality insights.
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-Private-lightgrey)](LICENSE)
+[![Last Release](https://img.shields.io/badge/Last%20Release-Latest-success)]()
+[![CI](https://img.shields.io/badge/CI-Research%20Build-informational)]()
+
 Rather than measuring only outcomes such as profit and loss, DLE focuses on how
 decisions are made. It normalizes raw trading data into a canonical model,
 performs modular analysis over that representation, and produces explainable,
@@ -11,6 +16,17 @@ validation-backed reports.
 
 The project is structured as a layered research platform with clear separation
 between ingestion, normalization, analysis, validation, and report generation.
+
+---
+
+## Table of Contents
+
+- [Architecture](#architecture)
+- [Why DLE is different](#why-dle-is-different)
+- [Features](#features)
+- [Usage](#usage)
+- [Repository Structure](#repository-structure)
+- [Status](#status)
 
 ---
 
@@ -67,8 +83,9 @@ flowchart LR
     class report,artifacts output;
 ```
 
-<img width="1600" height="1040" alt="image" src="https://github.com/user-attachments/assets/7f4a7e64-58c2-419e-8879-4bf386a53277" />
+ DLE follows an evidence-first architecture: raw trading data is normalized into canonical records before behavioral evidence is extracted and transformed into explainable insights.
 
+![DLE CLI demo](docs/screenshots/dle-cli-demo.png)
 
 ### 1. Input layer
 
